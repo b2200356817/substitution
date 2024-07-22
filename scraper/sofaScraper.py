@@ -62,8 +62,3 @@ graphsJSON = []
 incidentsJSON = []
 
 scanMatches(shotmapsJSON, graphsJSON, incidentsJSON)
-
-
-"""result = requests.get(incidentsURL2)
-doc = BeautifulSoup(result.text, "html.parser")
-print(doc.prettify())"""
